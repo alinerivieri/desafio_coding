@@ -1,0 +1,136 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 950px 1fr;
+  background-color: #e8e8ea;
+  font-family: 'Share Tech', sans-serif;
+}
+
+aside{
+  height: 100vh;
+  background-image: url(./images/side.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: cover;
+
+}
+
+main{
+  height: 100vh;
+
+}
+
+.conteiner{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+h2{  
+  margin-top: 15rem;
+  margin-left: 10rem;
+  font-size: 24px;
+}
+
+h1{  
+  margin-top: 2rem;
+  margin-left: 10rem;
+  font-size: 80px;
+}
+
+p{
+  margin-top: 2rem;
+  margin-left: 10rem;
+  font-size: 22px;
+  text-align: justify;
+  width: 500px;
+}
+
+
+#form {
+  margin-left: 10rem;
+  margin-top: 50px;
+}
+
+#form fieldset {
+  border: none;
+  padding: 0;
+}
+
+fieldset legend {
+  font-weight: 700;
+  font-size: 0.88rem;
+  line-height: 1rem;
+  margin-top: 8.8px;
+}
+
+#email {
+  margin-top: 1.05rem;
+  width: 500px;
+  display: flex;
+}
+
+#email input {
+  width: 500px;
+  height: 48px;
+  border: none;
+  border-left: solid 5px #111;
+  filter: drop-shadow(4px 10px 15px rgba(0, 0, 0, 0.5));
+  font-size: 0.8rem;
+  line-height: 0.87rem;
+  padding: 10px;
+  font-family: 'Share Tech', sans-serif;
+}
+
+
+input:focus { 
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+#email button {
+  width: 48px;
+  height: 48px;
+  border: none;
+  background-color:#111;
+  z-index: 1;
+  color: #e8e8ea;
+  font-weight: 700;
+  font-family: 'Share Tech', sans-serif;
+}
+
+@media(max-width: 1280px){
+  body{
+    height: 100vh;
+  }
+}
+
+@media(max-width: 768px){
+  body {
+    background-color: #e8e8ea;
+    margin-right: 2rem;
+  }
+
+  .container {
+    min-width: 90%;
+    margin: auto;
+}
+
+  aside{
+    display: none;
+  }
+
+  #email input {
+    width: 400px;
+  }
+}
+
+
+
