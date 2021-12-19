@@ -4,3 +4,7 @@
 * Aprimorando os conceitos de HTML e CSS
 * Apromorando os conceitos de responsividade com @media
 
+# ✅ **Resultado**
+
+![Image](/images/mockup_inscrição.png?raw=true)
+
