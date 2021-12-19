@@ -1,10 +1,10 @@
-# Estudando HTML e CSS 
+# Studying HTML and CSS 
 
-* Tela para inscrição em uma lista de espera para participar de desafios de programação
-* Aprimorando os conceitos de HTML e CSS
-* Aprimorando os conceitos de responsividade com @media
+* Screen for enrollment on a waiting list to participate in programming challenges
+* Enhancement the concepts of HTML and CSS
+* Enhancement the concepts of responsiveness with @media
 
-# ✅ **Resultado**
+# ✅ **Result**
 
 ![Image](/images/mockup_inscrição.png?raw=true)
 
